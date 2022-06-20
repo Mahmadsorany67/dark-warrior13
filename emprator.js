@@ -26,7 +26,7 @@ const emprator24 = new Discord.Client();
 const emprator25 = new Discord.Client();
 
 
-
+////////بە هیج شیوازیک دەستکاری مەکە مەیکە بە ناوە خۆتەوە
 
 
 
@@ -88,7 +88,7 @@ emprator6.on("message", message => {
 });
 ///////
 emprator7.login("");
-client.on("message", message => {
+emprator7.on("message", message => {
   if (message.channel.id === "NONE") {
     message.react("🤍").then(() => {
       message.react("🖤");
@@ -97,7 +97,7 @@ client.on("message", message => {
 });
 ///////
 emprator8.login("");
-client.on("message", message => {
+emprator8.on("message", message => {
   if (message.channel.id === "NONE") {
     message.react("🤍").then(() => {
       message.react("🖤");
@@ -106,14 +106,7 @@ client.on("message", message => {
 });
 //////
 emprator9.login("");
-client.on("message", message => {
-  if (message.channel.id === "NONE") {
-    message.react("🤍").then(() => {
-      message.react("🖤");
-    });
-  }
-});
-client.on("message", message => {
+emprator9.on("message", message => {
   if (message.channel.id === "NONE") {
     message.react("🤍").then(() => {
       message.react("🖤");
@@ -122,7 +115,7 @@ client.on("message", message => {
 });
 ///////////
 emprator10.login("");
-client.on("message", message => {
+emprator10.on("message", message => {
   if (message.channel.id === "NONE") {
     message.react("🤍").then(() => {
       message.react("🖤");
@@ -131,7 +124,7 @@ client.on("message", message => {
 });
 ///////
 emprator11.login("");
-client.on("message", message => {
+emprator11.on("message", message => {
   if (message.channel.id === "NONE") {
     message.react("🤍").then(() => {
       message.react("🖤");
@@ -140,7 +133,7 @@ client.on("message", message => {
 });
 /////////
 emprator12.login("");
-client.on("message", message => {
+emprator12.on("message", message => {
   if (message.channel.id === "NONE") {
     message.react("🤍").then(() => {
       message.react("🖤");
@@ -149,7 +142,7 @@ client.on("message", message => {
 });
 /////////
 emprator13.login("");
-client.on("message", message => {
+emprator13.on("message", message => {
   if (message.channel.id === "NONE") {
     message.react("🤍").then(() => {
       message.react("🖤");
